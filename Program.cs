@@ -11,6 +11,7 @@ namespace OOP_Teamwork___Game
         static void Main(string[] args)
         {
             Console.WriteLine("Just a test");
+            Console.WriteLine("Another test");
         }
     }
 }
