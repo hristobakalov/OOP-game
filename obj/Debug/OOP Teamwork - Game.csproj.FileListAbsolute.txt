@@ -4,3 +4,9 @@ C:\Users\Ico\Documents\Visual Studio 2012\Projects\Programing\OOP Teamwork - Gam
 C:\Users\Ico\Documents\Visual Studio 2012\Projects\Programing\OOP Teamwork - Game\OOP Teamwork - Game\OOP Teamwork - Game\obj\Debug\OOP Teamwork - Game.csprojResolveAssemblyReference.cache
 C:\Users\Ico\Documents\Visual Studio 2012\Projects\Programing\OOP Teamwork - Game\OOP Teamwork - Game\OOP Teamwork - Game\obj\Debug\OOP Teamwork - Game.exe
 C:\Users\Ico\Documents\Visual Studio 2012\Projects\Programing\OOP Teamwork - Game\OOP Teamwork - Game\OOP Teamwork - Game\obj\Debug\OOP Teamwork - Game.pdb
+C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\bin\Debug\OOP Teamwork - Game.exe.config
+C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\obj\Debug\OOP Teamwork - Game.exe
+C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\obj\Debug\OOP Teamwork - Game.pdb
+C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\bin\Debug\OOP Teamwork - Game.exe
+C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\bin\Debug\OOP Teamwork - Game.pdb
+C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\obj\Debug\OOP Teamwork - Game.csprojResolveAssemblyReference.cache
