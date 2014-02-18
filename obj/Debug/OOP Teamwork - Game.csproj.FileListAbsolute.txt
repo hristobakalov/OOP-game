@@ -10,3 +10,9 @@ C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\obj\Debug\OOP Teamwork - Game.
 C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\bin\Debug\OOP Teamwork - Game.exe
 C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\bin\Debug\OOP Teamwork - Game.pdb
 C:\Users\memo\Documents\GitHub\LocalRepo\OOP-game\obj\Debug\OOP Teamwork - Game.csprojResolveAssemblyReference.cache
+C:\Users\Ico\Documents\GitHub\OOP-game\bin\Debug\OOP Teamwork - Game.exe.config
+C:\Users\Ico\Documents\GitHub\OOP-game\obj\Debug\OOP Teamwork - Game.exe
+C:\Users\Ico\Documents\GitHub\OOP-game\obj\Debug\OOP Teamwork - Game.pdb
+C:\Users\Ico\Documents\GitHub\OOP-game\bin\Debug\OOP Teamwork - Game.exe
+C:\Users\Ico\Documents\GitHub\OOP-game\bin\Debug\OOP Teamwork - Game.pdb
+C:\Users\Ico\Documents\GitHub\OOP-game\obj\Debug\OOP Teamwork - Game.csprojResolveAssemblyReference.cache
