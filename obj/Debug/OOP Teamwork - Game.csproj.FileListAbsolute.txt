@@ -19,3 +19,6 @@ C:\Users\Ico\Documents\GitHub\OOP-game\obj\Debug\OOP Teamwork - Game.csprojResol
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Github\OOP-game\bin\Debug\OOP Teamwork - Game.exe.config
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Github\OOP-game\obj\Debug\OOP Teamwork - Game.exe
 D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Github\OOP-game\obj\Debug\OOP Teamwork - Game.pdb
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Github\OOP-game\obj\Debug\OOP Teamwork - Game.csprojResolveAssemblyReference.cache
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Github\OOP-game\bin\Debug\OOP Teamwork - Game.exe
+D:\OLD_DISK_D\New Folder\Supernatural.S06.HDTV.XviD-ZmN\7\Visual Studio projects\Github\OOP-game\bin\Debug\OOP Teamwork - Game.pdb

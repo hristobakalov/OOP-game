@@ -41,9 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ability.cs" />
+    <Compile Include="AbilityType.cs" />
     <Compile Include="Draw.cs" />
+    <Compile Include="Enemy.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="Fighter.cs" />
     <Compile Include="IDrawable.cs" />
+    <Compile Include="IMoveable.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

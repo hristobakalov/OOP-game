@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OOP_Teamwork___Game
+﻿namespace OOP_Teamwork___Game
 {
-    class Program
-    {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
 
-        static void Main(string[] args)
+    public class Program
+    {
+        public static void Main(string[] args)
         {
             Engine.GameSettings(160, 40);
 
