@@ -11,6 +11,7 @@
         private const char Interval = ' ';
 
         #region Methods
+
         public void Print(Point point, string[] objectToDraw)
         {
             for (int i = 0; i < objectToDraw.Length; i++)
@@ -19,13 +20,12 @@
                 Console.WriteLine(objectToDraw[i]);
                 point.CoordY++;
             }
-
         }
 
         public void Move(Point currentPoint, Point newPoint, string[] objectToDraw)
         {
-            Erase(currentPoint, objectToDraw);
-            Print(newPoint, objectToDraw);
+            this.Erase(currentPoint, objectToDraw);
+            this.Print(newPoint, objectToDraw);
         }
 
         public void Erase(Point currentPoint, string[] objectToErase)
@@ -43,7 +43,6 @@
                 Console.WriteLine(toErase[i]);
                 currentPoint.CoordY++;
             }
-
         }
 
         #endregion

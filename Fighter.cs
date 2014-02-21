@@ -10,7 +10,8 @@
         #region Fields
 
         private string name;
-        private int health;
+        private int maxHealth;
+        private int currentHealth;
         private int level = 1;
         private List<Ability> abilities;
 
@@ -18,10 +19,10 @@
 
         #region Constructors
 
-        public Fighter(string name, int health, List<Ability> abilities)
+        public Fighter(string name, int maxHealth, List<Ability> abilities)
         {
             this.Name = name;
-            this.Health = health;
+            this.MaxHealth = maxHealth;
             this.Abilities = abilities;
         }
 
@@ -55,22 +56,43 @@
             }
         }
 
-        public int Health
+        public int MaxHealth
         {
             get
             {
-                return this.health;
+                return this.maxHealth;
             }
 
             private set
             {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Cannot create fighter with less than 1 health points.");
+                }
+
+                this.maxHealth = value;
+            }
+        }
+
+        public int CurrentHealth
+        {
+            get
+            {
+                return this.currentHealth;
+            }
+            set
+            {
                 if (value < 0)
                 {
-                    this.health = 0;
+                    this.currentHealth = 0;
+                }
+                else if (value > this.MaxHealth)
+                {
+                    this.currentHealth = this.MaxHealth;
                 }
                 else
                 {
-                    this.health = value;
+                    this.currentHealth = value;
                 }
             }
         }

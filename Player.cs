@@ -21,8 +21,8 @@
         #region Constructors
 
         // Health given in the constructor in case there are difficulty options
-        public Player(string name, int health, List<Ability> abilities)
-            : base(name, health, abilities)
+        public Player(string name, int maxHealth, List<Ability> abilities)
+            : base(name, maxHealth, abilities)
         {
         }
 

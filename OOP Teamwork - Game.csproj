@@ -59,6 +59,7 @@
     <Compile Include="Ability.cs" />
     <Compile Include="AbilityType.cs" />
     <Compile Include="Draw.cs" />
+    <Compile Include="Duel.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Fighter.cs" />

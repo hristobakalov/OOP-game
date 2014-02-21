@@ -2,7 +2,7 @@
 {
     public class Ability
     {
-        // Not finished
+        // Not finished, must add passive effect changers and some methods for that
         #region Fields
 
         private readonly int requiredLevel;

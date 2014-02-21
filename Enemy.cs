@@ -14,8 +14,8 @@
 
         # region Constructors
 
-        public Enemy(string name, int health, List<Ability> abilities, int experienceDrop = 1, int gloryPointsDrop = 1)
-            : base(name, health, abilities)
+        public Enemy(string name, int maxHealth, List<Ability> abilities, int experienceDrop = 1, int gloryPointsDrop = 1)
+            : base(name, maxHealth, abilities)
         {
             this.ExperienceDrop = experienceDrop;
             this.GloryPointsDrop = gloryPointsDrop;

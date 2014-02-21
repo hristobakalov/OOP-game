@@ -11,7 +11,7 @@
     {
         public static void Main(string[] args)
         {
-            Engine.GameSettings(160, 40);
+            Engine.GameSettings(160, 50);
 
             //Testing draw class
 
