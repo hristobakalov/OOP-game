@@ -2,6 +2,6 @@
 {
     public interface IMoveable
     {
-        // TODO: implement me!
+        void Move(Point currentPoint, Point newPoint, string[] objectToDraw);
     }
 }

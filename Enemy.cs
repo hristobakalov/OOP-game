@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    public class Enemy : Fighter, IDrawable, IMoveable
+    public class Enemy : Fighter//, IDrawable, IMoveable
     {
         // Not finished
         # region Automated Properties

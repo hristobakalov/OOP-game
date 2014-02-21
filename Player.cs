@@ -6,7 +6,7 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    public class Player : Fighter, IDrawable, IMoveable
+    public class Player : Fighter//, IDrawable, IMoveable
     {
         // Not finished
         #region Fields

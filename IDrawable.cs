@@ -2,6 +2,6 @@
 {
     public interface IDrawable
     {
-         // TODO: implement me!
+        void Print(Point point, string[] objectToDraw);
     }
 }
