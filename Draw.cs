@@ -2,6 +2,7 @@
 {
     using System;
     using System.Text;
+    using System.Collections.Generic;
 
     public class Draw : IDrawable, IErasable, IMoveable
     {
@@ -12,9 +13,9 @@
 
         #region Methods
 
-        public void Print(Point point, string[] objectToDraw)
+        public void Print(Point point, List<string> objectToDraw)
         {
-            for (int i = 0; i < objectToDraw.Length; i++)
+            for (int i = 0; i < objectToDraw.Count; i++)
             {
                 Console.SetCursorPosition(point.CoordX, point.CoordY);
                 Console.WriteLine(objectToDraw[i]);
@@ -22,22 +23,22 @@
             }
         }
 
-        public void Move(Point currentPoint, Point newPoint, string[] objectToDraw)
+        public void Move(Point currentPoint, Point newPoint, List<string> objectToDraw)
         {
             this.Erase(currentPoint, objectToDraw);
             this.Print(newPoint, objectToDraw);
         }
 
-        public void Erase(Point currentPoint, string[] objectToErase)
+        public void Erase(Point currentPoint, List<string> objectToErase)
         {
-            string[] toErase = new string[objectToErase.Length];
+            List<string> toErase = new List<string>();
 
-            for (int i = 0; i < objectToErase.Length; i++)
+            for (int i = 0; i < objectToErase.Count; i++)
             {
-                toErase[i] = new string(Interval, objectToErase[i].Length);
+               toErase.Add(new string(Interval, objectToErase[i].Length));
             }
 
-            for (int i = 0; i < toErase.Length; i++)
+            for (int i = 0; i < toErase.Count; i++)
             {
                 Console.SetCursorPosition(currentPoint.CoordX, currentPoint.CoordY);
                 Console.WriteLine(toErase[i]);
@@ -46,5 +47,6 @@
         }
 
         #endregion
+
     }
 }
