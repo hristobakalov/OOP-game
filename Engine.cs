@@ -8,7 +8,6 @@
 
     public class Engine
     {
-
         public static void GameSettings(int gameFieldWidth, int gameFieldHeight)
         {
             Console.BufferWidth = Console.WindowWidth;
@@ -18,8 +17,17 @@
             Console.CursorVisible = false;
             Console.Title = "Totally not a virus";
         }
-        /*
-        private static void CheckForPressedKey()
+        //private Player playerTest = new Player("Pesho", 100, new List<Ability>(), new Point(0, 0));
+        public static void StartGame() 
+        {
+            Player playerTest = new Player("Pesho", 100, new List<Ability>(), new Point());
+            while (true)
+            {
+                CheckForPressedKey(playerTest);
+            }
+        }
+
+        private static void CheckForPressedKey(Player player)
         {
             if (Console.KeyAvailable)
             {
@@ -28,92 +36,91 @@
                 {
                     Console.ReadKey(true);
                 }
-                if (pressedKey.Key == ConsoleKey.LeftArrow && gamePause == false)
+                if (pressedKey.Key == ConsoleKey.LeftArrow)
                 {
-                    MovePlayer(0, -1);
-                    CleanBattleField("left");
-                    DrawGameField();
+                    player.MovePlayer(0, -1);
+                    //CleanBattleField("left");
+                    //DrawGameField();
                 }
-                else if (pressedKey.Key == ConsoleKey.RightArrow && gamePause == false)
+                else if (pressedKey.Key == ConsoleKey.RightArrow)
                 {
-                    MovePlayer(0, 1);
-                    CleanBattleField("right");
-                    DrawGameField();
+                    player.MovePlayer(0, 1);
+                    //CleanBattleField("right");
+                    //DrawGameField();
                 }
-                else if (pressedKey.Key == ConsoleKey.UpArrow && gamePause == false)
+                else if (pressedKey.Key == ConsoleKey.UpArrow)
                 {
-                    MovePlayer(-1, 0);
-                    CleanBattleField("up");
-                    DrawGameField();
+                    player.MovePlayer(-1, 0);
+                    //CleanBattleField("up");
+                    //DrawGameField();
 
                 }
-                else if (pressedKey.Key == ConsoleKey.DownArrow && gamePause == false)
+                else if (pressedKey.Key == ConsoleKey.DownArrow)
                 {
-                    MovePlayer(1, 0);
-                    CleanBattleField("down");
-                    DrawGameField();
+                    player.MovePlayer(1, 0);
+                    //CleanBattleField("down");
+                    //DrawGameField();
                 }
-                else if (pressedKey.Key == ConsoleKey.E && gamePause == false)
-                {
-                    Console.BackgroundColor = ConsoleColor.Black;
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Good bye!");
-                    Console.ForegroundColor = ConsoleColor.Gray;
-                    Environment.Exit(0);
-                }
-                else if (pressedKey.Key == ConsoleKey.P)
-                {
-                    if (gamePause)
-                    {
-                        gamePause = false;
-                    }
-                    else
-                    {
-                        gamePause = true;
-                        while (gamePause)
-                        {
-                            CheckForPressedKey();
-                        }
-                    }
-                }
-                else if (pressedKey.Key == ConsoleKey.S)
-                {
-                    SaveGame();
-                }
-                else if (pressedKey.Key == ConsoleKey.L)
-                {
+                //else if (pressedKey.Key == ConsoleKey.E && gamePause == false)
+                //{
+                //    Console.BackgroundColor = ConsoleColor.Black;
+                //    Console.Clear();
+                //    Console.ForegroundColor = ConsoleColor.Red;
+                //    Console.WriteLine("Good bye!");
+                //    Console.ForegroundColor = ConsoleColor.Gray;
+                //    Environment.Exit(0);
+                //}
+                //else if (pressedKey.Key == ConsoleKey.P)
+                //{
+                //    if (gamePause)
+                //    {
+                //        gamePause = false;
+                //    }
+                //    else
+                //    {
+                //        gamePause = true;
+                //        while (gamePause)
+                //        {
+                //            CheckForPressedKey();
+                //        }
+                //    }
+                //}
+                //else if (pressedKey.Key == ConsoleKey.S)
+                //{
+                //    SaveGame();
+                //}
+                //else if (pressedKey.Key == ConsoleKey.L)
+                //{
 
-                    LoadSavedGame();
-                    CleanBattleField();
-                    DrawGameField();
-                    //CreateBonuses();
-                }
-                else if (pressedKey.Key == ConsoleKey.B)
-                {
-                    time += 20;
-                }
-                else if (pressedKey.Key == ConsoleKey.N)
-                {
-                    time -= 20;
-                }
-                else if (pressedKey.Key == ConsoleKey.T)
-                {
-                    torchLight++;
-                }
-                else if (pressedKey.Key == ConsoleKey.R)
-                {
-                    torchLight--;
-                    CleanBattleField();
-                    DrawGameField();
-                }
+                //    LoadSavedGame();
+                //    CleanBattleField();
+                //    DrawGameField();
+                //    //CreateBonuses();
+                //}
+                //else if (pressedKey.Key == ConsoleKey.B)
+                //{
+                //    time += 20;
+                //}
+                //else if (pressedKey.Key == ConsoleKey.N)
+                //{
+                //    time -= 20;
+                //}
+                //else if (pressedKey.Key == ConsoleKey.T)
+                //{
+                //    torchLight++;
+                //}
+                //else if (pressedKey.Key == ConsoleKey.R)
+                //{
+                //    torchLight--;
+                //    CleanBattleField();
+                //    DrawGameField();
+                //}
                 
              
             }
          
         }
-         * 
-         *  private static void MovePlayer(int rowChange, int colChange)
+         /* private static void MovePlayer(int rowChange, int colChange)
         {
             int newRowAfterMove = playerCordinates[0] + rowChange;
             int newColAfterMove = playerCordinates[1] + colChange;

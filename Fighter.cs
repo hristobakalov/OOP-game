@@ -9,6 +9,7 @@
         // Not finished
         #region Fields
 
+        private Point coordinates;
         private string name;
         private int maxHealth;
         private int currentHealth;
@@ -19,11 +20,12 @@
 
         #region Constructors
 
-        public Fighter(string name, int maxHealth, List<Ability> abilities)
+        public Fighter(string name, int maxHealth, List<Ability> abilities, Point coordinates)
         {
             this.Name = name;
             this.MaxHealth = maxHealth;
             this.Abilities = abilities;
+            this.Coordinates = coordinates;
         }
 
         #endregion
@@ -118,6 +120,22 @@
                 }
 
                 this.abilities = value;
+            }
+        }
+
+        public Point Coordinates 
+        {
+            get
+            {
+                return this.coordinates;
+            }
+            set 
+            {
+                if ((value.CoordX < 0 || value.CoordX > Console.WindowWidth) || (value.CoordY < 0 || value.CoordY > Console.WindowHeight))
+                {
+                    throw new ArgumentOutOfRangeException("This coordinates aren't valid!");
+                }
+                this.coordinates = value;
             }
         }
 

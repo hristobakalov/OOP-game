@@ -10,19 +10,20 @@
     {
         // Not finished
         #region Fields
-
+        
         private int mana = 150;
         private ulong experience = 0;
         private ulong experienceForNextLvl = 20000;
         private int gloryPoints = 0; // Currency for items, why a virus would need money...
+        private char playerSymbol = '@'; //just for test
 
         #endregion
 
         #region Constructors
 
         // Health given in the constructor in case there are difficulty options
-        public Player(string name, int maxHealth, List<Ability> abilities)
-            : base(name, maxHealth, abilities)
+        public Player(string name, int maxHealth, List<Ability> abilities, Point coordinates)
+            : base(name, maxHealth, abilities, coordinates)
         {
         }
 
@@ -86,5 +87,19 @@
         }
 
         #endregion 
+
+        public void MovePlayer(int rowChange, int colChange)
+        {
+            int newRowAfterMove = Coordinates.CoordY +rowChange;
+            int newColAfterMove = Coordinates.CoordX + colChange;
+            if (newRowAfterMove >= 0 && newColAfterMove >= 0 && newRowAfterMove < Console.WindowHeight && newColAfterMove < Console.WindowWidth)
+            {
+                Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, " ", ConsoleColor.White, ConsoleColor.White);
+                Coordinates.CoordY = newRowAfterMove;
+                Coordinates.CoordX = newColAfterMove;
+
+                Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, playerSymbol.ToString(), ConsoleColor.Blue, ConsoleColor.White);
+            }
+        }
     }
 }

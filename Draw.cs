@@ -12,6 +12,13 @@
         private const char Interval = ' ';
 
         #region Methods
+        public static void ConsoleWrite(int left, int top, string symbol, ConsoleColor foregroundColor = ConsoleColor.White, ConsoleColor backgroundColor = ConsoleColor.Black)
+        {
+            Console.SetCursorPosition(left, top);
+            Console.ForegroundColor = foregroundColor;
+            Console.BackgroundColor = backgroundColor;
+            Console.Write(symbol);
+        }
 
         public void Print(Point point, List<string> objectToDraw)
         {

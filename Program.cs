@@ -12,7 +12,7 @@
         public static void Main(string[] args)
         {
             Engine.GameSettings(160, 50);
-
+            Engine.StartGame();
             #region Testing draw class
             //List<string> strList = new List<string> { " __/\")", "(___/", " ^ ^ " };
 
