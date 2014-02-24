@@ -96,10 +96,10 @@
             int newColAfterMove = Coordinates.CoordX + colChange;
             if (newRowAfterMove >= 0 && newColAfterMove >= 0 && newRowAfterMove < Console.WindowHeight && newColAfterMove < Console.WindowWidth)
             {
-                Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, " ", ConsoleColor.White, ConsoleColor.White);
-                Coordinates = new Point(newRowAfterMove, newColAfterMove);
+                Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, " ");
+                Coordinates = new Point(newColAfterMove, newRowAfterMove);
 
-                Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, playerSymbol.ToString(), ConsoleColor.Cyan, ConsoleColor.Blue);
+                Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, playerSymbol.ToString());
             }
         }
 
