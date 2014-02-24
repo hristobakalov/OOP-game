@@ -88,18 +88,21 @@
 
         #endregion 
 
+        #region Methods
+
         public void MovePlayer(int rowChange, int colChange)
         {
-            int newRowAfterMove = Coordinates.CoordY +rowChange;
+            int newRowAfterMove = Coordinates.CoordY + rowChange;
             int newColAfterMove = Coordinates.CoordX + colChange;
             if (newRowAfterMove >= 0 && newColAfterMove >= 0 && newRowAfterMove < Console.WindowHeight && newColAfterMove < Console.WindowWidth)
             {
                 Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, " ", ConsoleColor.White, ConsoleColor.White);
-                Coordinates.CoordY = newRowAfterMove;
-                Coordinates.CoordX = newColAfterMove;
+                Coordinates = new Point(newRowAfterMove, newColAfterMove);
 
-                Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, playerSymbol.ToString(), ConsoleColor.Blue, ConsoleColor.White);
+                Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, playerSymbol.ToString(), ConsoleColor.Cyan, ConsoleColor.Blue);
             }
         }
+
+        #endregion
     }
 }

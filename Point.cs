@@ -4,5 +4,12 @@
     {
         public int CoordX { get; set; }
         public int CoordY { get; set; }
+
+        public Point(int coordX, int coordY)
+            : this()
+        {
+            this.CoordX = coordX;
+            this.CoordY = coordY;
+        }
     }
 }

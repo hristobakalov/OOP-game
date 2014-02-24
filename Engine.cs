@@ -20,10 +20,11 @@
         //private Player playerTest = new Player("Pesho", 100, new List<Ability>(), new Point(0, 0));
         public static void StartGame() 
         {
-            Player playerTest = new Player("Pesho", 100, new List<Ability>(), new Point());
+            Player playerTest = new Player("Pesho", 100, new List<Ability> { new Ability(1, 1, AbilityType.Offensive) }, new Point(1, 1));
             while (true)
             {
                 CheckForPressedKey(playerTest);
+                
             }
         }
 
@@ -61,6 +62,7 @@
                     //CleanBattleField("down");
                     //DrawGameField();
                 }
+
                 //else if (pressedKey.Key == ConsoleKey.E && gamePause == false)
                 //{
                 //    Console.BackgroundColor = ConsoleColor.Black;
