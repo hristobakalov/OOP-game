@@ -9,8 +9,8 @@
     public class Player : Fighter, IInteractive//, IDrawable, IMoveable
     {
         // Not finished
-        #region Fields
-        
+        #region Fields  
+   
         private int mana = 150;
         private ulong experience = 0;
         private ulong experienceForNextLvl = 20000;

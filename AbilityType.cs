@@ -2,7 +2,6 @@
 {
     public enum AbilityType
     {
-        None,
         Offensive,
         Defensive,
         Passive

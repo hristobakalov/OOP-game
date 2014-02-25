@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Ability.cs" />
     <Compile Include="AbilityType.cs" />
+    <Compile Include="Armour.cs" />
+    <Compile Include="ArmourPiece.cs" />
     <Compile Include="Draw.cs" />
     <Compile Include="Duel.cs" />
     <Compile Include="Enemy.cs" />
@@ -66,13 +68,20 @@
     <Compile Include="IDrawable.cs" />
     <Compile Include="IErasable.cs" />
     <Compile Include="IInteractive.cs" />
+    <Compile Include="IItem.cs" />
     <Compile Include="IMoveable.cs" />
     <Compile Include="InteractiveEntity.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemType.cs" />
+    <Compile Include="IWearable.cs" />
     <Compile Include="Maps.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestItem.cs" />
+    <Compile Include="Weapon.cs" />
+    <Compile Include="WeaponType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

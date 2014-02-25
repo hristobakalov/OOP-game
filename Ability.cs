@@ -1,5 +1,7 @@
 ﻿namespace OOP_Teamwork___Game
 {
+    using System;
+
     public class Ability
     {
         // Not finished, must add passive effect changers and some methods for that
@@ -27,8 +29,19 @@
 
         public int Damage
         {
-            get { return this.damage; }
-            set { this.damage = value; }
+            get 
+            {
+                return this.damage; 
+            }
+            set 
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Damage must be more than 0.");
+                }
+
+                this.damage = value;
+            }
         }
 
         public int AbilityLevel
