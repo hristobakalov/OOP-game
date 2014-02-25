@@ -20,11 +20,10 @@
         //private Player playerTest = new Player("Pesho", 100, new List<Ability>(), new Point(0, 0));
         public static void StartGame() 
         {
-            Player playerTest = new Player("Pesho", 100, new List<Ability> { new Ability(1, 1, AbilityType.Offensive) }, new Point(1, 1));
+            Player playerTest = new Player( new Point(1, 1), "Pesho", 100, new List<Ability> { new Ability(1, 1, AbilityType.Offensive) });
             while (true)
             {
-                CheckForPressedKey(playerTest);
-                
+                CheckForPressedKey(playerTest);         
             }
         }
 

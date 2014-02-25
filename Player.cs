@@ -6,7 +6,7 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    public class Player : Fighter//, IDrawable, IMoveable
+    public class Player : Fighter, IInteractive//, IDrawable, IMoveable
     {
         // Not finished
         #region Fields
@@ -15,15 +15,15 @@
         private ulong experience = 0;
         private ulong experienceForNextLvl = 20000;
         private int gloryPoints = 0; // Currency for items, why a virus would need money...
-        private char playerSymbol = '@'; //just for test
+        private const char playerSymbol = '@'; //just for test
 
         #endregion
 
         #region Constructors
 
         // Health given in the constructor in case there are difficulty options
-        public Player(string name, int maxHealth, List<Ability> abilities, Point coordinates)
-            : base(name, maxHealth, abilities, coordinates)
+        public Player(Point coordinates, string name, int maxHealth, List<Ability> abilities)
+            : base(coordinates, name, maxHealth, abilities)
         {
         }
 

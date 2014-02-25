@@ -65,7 +65,10 @@
     <Compile Include="Fighter.cs" />
     <Compile Include="IDrawable.cs" />
     <Compile Include="IErasable.cs" />
+    <Compile Include="IInteractive.cs" />
     <Compile Include="IMoveable.cs" />
+    <Compile Include="InteractiveEntity.cs" />
+    <Compile Include="Maps.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />

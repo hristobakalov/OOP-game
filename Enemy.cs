@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    public class Enemy : Fighter//, IDrawable, IMoveable
+    public class Enemy : Fighter, IInteractive//, IDrawable, IMoveable
     {
         // Not finished
         # region Automated Properties
@@ -14,8 +14,8 @@
 
         # region Constructors
 
-        public Enemy(string name, int maxHealth, List<Ability> abilities, Point coordinates, int experienceDrop = 1, int gloryPointsDrop = 1)
-            : base(name, maxHealth, abilities, coordinates)
+        public Enemy(Point coordinates, string name, int maxHealth, List<Ability> abilities, int experienceDrop = 1, int gloryPointsDrop = 1)
+            : base(coordinates, name, maxHealth, abilities)
         {
             this.ExperienceDrop = experienceDrop;
             this.GloryPointsDrop = gloryPointsDrop;
