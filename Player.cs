@@ -3,14 +3,13 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public class Player : Fighter, IInteractive//, IDrawable, IMoveable
     {
         // Not finished
         #region Fields  
    
+        public event EventHandler LeveledUp;
         private int mana = 150;
         private ulong experience = 0;
         private ulong experienceForNextLvl = 20000;
@@ -25,6 +24,11 @@
         public Player(Point coordinates, string name, int maxHealth, List<Ability> abilities)
             : base(coordinates, name, maxHealth, abilities)
         {
+            this.LeveledUp += (s, e) =>
+                {
+                    Console.SetCursorPosition(122, 0);
+                    Console.Write("Level: {0}", this.Level);
+                };
         }
 
         #endregion
@@ -58,13 +62,14 @@
                 return this.experience;
             }
 
-            private set
+            set
             {
                 if (value >= this.experienceForNextLvl)
                 {
                     this.Level++;
                     this.experience = value - this.experienceForNextLvl; // Move the bonus experience
                     this.experienceForNextLvl += (ulong)(this.experienceForNextLvl * 0.75); // The next level will require 175%   
+                    LeveledUp(this, new EventArgs()); // Just an event usage
 
                     foreach (var ability in this.Abilities)
                     {
