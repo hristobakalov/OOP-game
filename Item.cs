@@ -36,9 +36,9 @@
             }
             private set
             {
-                if (value.Length < 3)
+                if (value.Length < 3 || value.Length > 15)
                 {
-                    throw new ArgumentException("Name cannot be less that 3 characters.");
+                    throw new InvalidNameException("Name cannot be less than 3 and more than 15 characters.");
                 }
             }
         }
