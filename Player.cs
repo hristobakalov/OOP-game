@@ -69,7 +69,7 @@
                     this.Level++;
                     this.experience = value - this.experienceForNextLvl; // Move the bonus experience
                     this.experienceForNextLvl += (ulong)(this.experienceForNextLvl * 0.75); // The next level will require 175%   
-                    LeveledUp(this, new EventArgs()); // Just an event usage
+                    this.LeveledUp(this, new EventArgs()); // Just an event usage
 
                     foreach (var ability in this.Abilities)
                     {

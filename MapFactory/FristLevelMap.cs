@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
-namespace OOP_Teamwork___Game
+﻿namespace OOP_Teamwork___Game
 {
+    using System.Collections.Generic;
+
     internal class FirstLevelMap : Map
     {
         // TODO : Implement me

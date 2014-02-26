@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
-namespace OOP_Teamwork___Game
+﻿namespace OOP_Teamwork___Game
 {
+    using System.Collections.Generic;
+
     internal class SecondLevelMap : Map
     {
-        // TODO : Implement me
-
-        public SecondLevelMap (List<string> content) : base (content)
-        { }
+        public SecondLevelMap(List<string> content) : base(content)
+        {
+        }
     }
 }

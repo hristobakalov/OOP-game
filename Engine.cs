@@ -26,7 +26,7 @@
             Map = mapFactory.GenerateMap(Maptypes.FirstLevelMap);
             Map.Print(); // insert validations for different maps
 
-            Player playerTest = new Player( new Point(1, 1), "Pesho", 100, new List<Ability> { new Ability(1, 1, AbilityType.Offensive) });
+            Player playerTest = new Player(new Point(1, 1), "Pesho", 100, new List<Ability> { new Ability(1, 1, AbilityType.Offensive) });
             Console.SetCursorPosition(122, 0);
             Console.Write("Level: {0}", playerTest.Level);
             while (true)

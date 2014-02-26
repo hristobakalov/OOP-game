@@ -1,12 +1,12 @@
-﻿using System.Collections.Generic;
-namespace OOP_Teamwork___Game
+﻿namespace OOP_Teamwork___Game
 {
+    using System.Collections.Generic;
+
     internal class ThirdLevelMap : Map
     {
-        // TODO : Implement me
-
         public ThirdLevelMap(List<string> content)
             : base(content)
-        { }
+        {
+        }
     }
 }

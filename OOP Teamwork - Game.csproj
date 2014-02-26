@@ -62,7 +62,10 @@
     <Compile Include="ArmourPiece.cs" />
     <Compile Include="Draw.cs" />
     <Compile Include="Duel.cs" />
-    <Compile Include="MapFactory\DuelMap.cs" />
+    <Compile Include="InvalidNameException.cs" />
+    <Compile Include="MapFactory\DuelMap.cs">
+      <ExcludeFromStyleCop>False</ExcludeFromStyleCop>
+    </Compile>
     <Compile Include="Enemy.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Fighter.cs" />

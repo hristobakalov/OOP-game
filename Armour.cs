@@ -32,6 +32,7 @@
             {
                 return this.requiredLevel;
             }
+
             private set
             {
                 if (value < 2)
@@ -49,6 +50,7 @@
             {
                 return this.hpIncrease;
             }
+
             private set
             {
                 if (value < 0)

@@ -52,14 +52,14 @@
             {
                 if (value.Length < 3 || value.Length > 15)
                 {
-                    throw new ArgumentException("Name cannot be less than 3 and more than 15 characters.");
+                    throw new InvalidNameException("Name cannot be less than 3 and more than 15 characters.");
                 }
 
                 foreach (char ch in value)
                 {
                     if (!char.IsLetter(ch))
                     {
-                        throw new ArgumentException("Name must contain only letters.");
+                        throw new InvalidNameException("Name must contain only letters.");
                     }
                 }
 

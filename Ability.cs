@@ -33,6 +33,7 @@
             {
                 return this.damage; 
             }
+
             set 
             {
                 if (value <= 0)

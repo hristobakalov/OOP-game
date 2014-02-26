@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System;
-namespace OOP_Teamwork___Game
+﻿namespace OOP_Teamwork___Game
 {
+    using System.Collections.Generic;
+    using System.IO;
+    using System;
+
     public abstract class Map : IDrawable
     {
         public List<string> Content { get; set; }
@@ -16,9 +17,9 @@ namespace OOP_Teamwork___Game
             this.Content = content;
         }
 
-        // Still needs implementation of the graffics
-        //I think maps should be hold as a single string and to avoid hard code should be hold in a .txt file.
-        //Then read by a StreamReader and print in in cursor position (0 , 0)
+        //// Still needs implementation of the graffics
+        ////I think maps should be hold as a single string and to avoid hard code should be hold in a .txt file.
+        ////Then read by a StreamReader and print in in cursor position (0 , 0)
 
         public void Print()
         {

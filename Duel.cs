@@ -78,7 +78,7 @@
 
             do
             {
-                Ability ability = ChoseAbility(attacker.Abilities); // Chose Ability method must be implemented, again graphics matter
+                Ability ability = this.ChoseAbility(attacker.Abilities); // Chose Ability method must be implemented, again graphics matter
 
                 if (ability.AbilityType == AbilityType.Offensive)
                 {
