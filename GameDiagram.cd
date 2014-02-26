@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOP_Teamwork___Game.Weapon" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAACAAAAAgCAAAAAgAAAAAAAAAAIAAAAAAAIAAAA=</HashCode>
+      <FileName>Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.QuestItem" Collapsed="true">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuestItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Program" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Player" Collapsed="true">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAgYAAAAAAAAAAAAAAIAAAACABAIAAAQCA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Item" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAACAAAAAgA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.InvalidNameException" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvalidNameException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Teamwork___Game.InteractiveEntity" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAIAEEAAABAAAAAAAAAAA=</HashCode>
+      <FileName>InteractiveEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Fighter" Collapsed="true">
+    <Position X="9" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAIAAAACAAAAAAAAAQAAAAEAAAAAAAAQAAAAAE=</HashCode>
+      <FileName>Fighter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Engine" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIgA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Enemy" Collapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Duel" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAABAAAAAQAAAABAAgAAAAIAAA=</HashCode>
+      <FileName>Duel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Draw" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAIAAAAAACAAAAAAAAAIAAAAEAAA=</HashCode>
+      <FileName>Draw.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Armour" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAgAAAAAEAAAEAAAABAAAAAAEA=</HashCode>
+      <FileName>Armour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Ability" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEACAAAAAgGAAAABgAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Teamwork___Game.ThirdLevelMap" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapFactory\ThirdLevelMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Teamwork___Game.SecondLevelMap" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapFactory\SecondLevelMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Teamwork___Game.MapFactory" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAIAEAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>MapFactory\MapFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Teamwork___Game.Map" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MapFactory\Map.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_Teamwork___Game.FirstLevelMap" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapFactory\FristLevelMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Teamwork___Game.DuelMap" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapFactory\DuelMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="OOP_Teamwork___Game.Point" Collapsed="true">
+    <Position X="20" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Point.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="OOP_Teamwork___Game.IWearable" Collapsed="true">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWearable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOP_Teamwork___Game.IMoveable" Collapsed="true">
+    <Position X="20" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMoveable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOP_Teamwork___Game.IItem" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOP_Teamwork___Game.IInteractive" Collapsed="true">
+    <Position X="23.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAIAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>IInteractive.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOP_Teamwork___Game.IErasable" Collapsed="true">
+    <Position X="21.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IErasable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOP_Teamwork___Game.IDrawable" Collapsed="true">
+    <Position X="20" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>IDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="OOP_Teamwork___Game.WeaponType" Collapsed="true">
+    <Position X="21.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQAAAAAAAAAAAIAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>WeaponType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OOP_Teamwork___Game.ItemType" Collapsed="true">
+    <Position X="23.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>ItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OOP_Teamwork___Game.ArmourPiece" Collapsed="true">
+    <Position X="21.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQIAAABABAAAAAQAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>ArmourPiece.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OOP_Teamwork___Game.AbilityType" Collapsed="true">
+    <Position X="20" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>AbilityType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OOP_Teamwork___Game.Maptypes" Collapsed="true">
+    <Position X="20" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAABEAAAAAAAA=</HashCode>
+      <FileName>MapFactory\Maptypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
