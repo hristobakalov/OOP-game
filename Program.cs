@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Text;
     using System.Threading;
@@ -12,7 +13,16 @@
         public static void Main(string[] args)
         {
             Engine.GameSettings(160, 50);
+
+            #region testing simple map factory design pattern
+            //Factory design pattern logic
+            MapFactory mapFactory = new MapFactory();
+            Map map = mapFactory.GenerateMap(Maptypes.FirstLevelMap);
+            Console.WriteLine(map.Content);
+            #endregion
+
             Engine.StartGame();
+
             #region Testing draw class
             //List<string> strList = new List<string> { " __/\")", "(___/", " ^ ^ " };
 

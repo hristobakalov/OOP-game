@@ -5,6 +5,6 @@
 
     public interface IErasable
     {
-        void Erase(Point currentPoint,List<string> objectToErase);
+        void Erase(Point currentPoint, List<string> objectToErase);
     }
 }
