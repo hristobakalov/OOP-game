@@ -8,6 +8,8 @@
 
     public class Engine
     {
+        public static Map Map { get; set; }
+
         public static void GameSettings(int gameFieldWidth, int gameFieldHeight)
         {
             Console.BufferWidth = Console.WindowWidth;
@@ -20,6 +22,10 @@
         //private Player playerTest = new Player("Pesho", 100, new List<Ability>(), new Point(0, 0));
         public static void StartGame() 
         {
+            MapFactory mapFactory = new MapFactory();
+            Map = mapFactory.GenerateMap(Maptypes.FirstLevelMap);
+            Map.Print(); // insert validations for different maps
+
             Player playerTest = new Player( new Point(1, 1), "Pesho", 100, new List<Ability> { new Ability(1, 1, AbilityType.Offensive) });
             Console.SetCursorPosition(122, 0);
             Console.Write("Level: {0}", playerTest.Level);

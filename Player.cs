@@ -99,7 +99,7 @@
         {
             int newRowAfterMove = Coordinates.CoordY + rowChange;
             int newColAfterMove = Coordinates.CoordX + colChange;
-            if (newRowAfterMove >= 0 && newColAfterMove >= 0 && newRowAfterMove < Console.WindowHeight && newColAfterMove < Console.WindowWidth)
+            if (newRowAfterMove >= 0 && newColAfterMove >= 0 && (Engine.Map.Content[newRowAfterMove].Substring(newColAfterMove, 1)) == " ")
             {
                 Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, " ");
                 Coordinates = new Point(newColAfterMove, newRowAfterMove);

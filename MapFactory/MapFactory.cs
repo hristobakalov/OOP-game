@@ -10,7 +10,10 @@ namespace OOP_Teamwork___Game
     internal class MapFactory
     {
 
-        private const string firstLevelMapPath = "FirstLevelMap.txt"; 
+        private const string firstLevelMapPath = "FirstLevelMap.txt";
+        private const string secondLevelMapPath = "FirstLevelMap.txt"; //TODO : Create paths for each map
+        private const string thirdLevelMapPath = "FirstLevelMap.txt";
+        private const string DuelMapPath = "FirstLevelMap.txt";
 
         public Map GenerateMap(Maptypes mapType)
         {
@@ -19,15 +22,51 @@ namespace OOP_Teamwork___Game
                 case Maptypes.FirstLevelMap:
                     {
                         StreamReader sr = new StreamReader(firstLevelMapPath);
-                        string content = sr.ReadToEnd();
+                        string line = sr.ReadLine();
+                        List<string> content = new List<string>();
+                        while (line != null)
+                        {
+                            content.Add(line);
+                            line = sr.ReadLine();
+                        }
                         return new FirstLevelMap(content);
                     }
                 case Maptypes.SecondLevelMap:
-                    return new SecondLevelMap("Not implemented");
+                    {
+                        StreamReader sr = new StreamReader(firstLevelMapPath);
+                        string line = sr.ReadLine();
+                        List<string> content = new List<string>();
+                        while (line != null)
+                        {
+                            content.Add(line);
+                            line = sr.ReadLine();
+                        }
+                        return new SecondLevelMap(content);
+                    }
                 case Maptypes.ThirdLevelMap:
-                    return new ThirdLevelMap("Not implemented");
+                    {
+                        StreamReader sr = new StreamReader(firstLevelMapPath);
+                        string line = sr.ReadLine();
+                        List<string> content = new List<string>();
+                        while (line != null)
+                        {
+                            content.Add(line);
+                            line = sr.ReadLine();
+                        }
+                        return new ThirdLevelMap(content);
+                    }
                 case Maptypes.DuelMap:
-                    return new DuelMap("Not implemented");
+                    {
+                        StreamReader sr = new StreamReader(firstLevelMapPath);
+                        string line = sr.ReadLine();
+                        List<string> content = new List<string>();
+                        while (line != null)
+                        {
+                            content.Add(line);
+                            line = sr.ReadLine();
+                        }
+                        return new DuelMap(content);
+                    }
                 default:
                     return null;
             }

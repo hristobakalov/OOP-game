@@ -1,9 +1,11 @@
-﻿namespace OOP_Teamwork___Game
+﻿using System.Collections.Generic;
+namespace OOP_Teamwork___Game
 {
     internal class DuelMap : Map
     {
-        public DuelMap(string content) : base(content)
-        { 
+        public DuelMap(List<string> content)
+            : base(content)
+        {
         }
         //// TODO : Implement me
     }
