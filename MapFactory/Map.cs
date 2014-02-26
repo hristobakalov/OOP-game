@@ -27,12 +27,7 @@
 
             foreach (var row in this.Content)
             {
-                foreach (var item in row)
-                {
-                    Console.Write(item);
-                }
-
-                Console.WriteLine();
+                Console.WriteLine(row);
             }
         }
 
