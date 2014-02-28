@@ -13,7 +13,7 @@
 <li>Станислав Христов (stanley) * </li>
 <li>Ивайло Иванов (back2reality) </li>
 <li>Мариета Карастойкова (mary7773) </li>
-<li>Боряна Панайотова (boryanap) * </li>
+<li>Боряна Панайотова (boryanap) </li>
 <li>Радослав Енев (NightWarrior) </li>
 <li>Христо Бакалов (Hristo.B) * </li>
 <li>Александър Сеферинки (dre4mless) </li>
