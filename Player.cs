@@ -100,7 +100,9 @@
         {
             int newRowAfterMove = Coordinates.CoordY + rowChange;
             int newColAfterMove = Coordinates.CoordX + colChange;
-            if (newRowAfterMove >= 0 && newColAfterMove >= 0 && (Engine.Map.Content[newRowAfterMove].Substring(newColAfterMove, 1)) == Interval)
+            if (newRowAfterMove >= 0 &&
+                newColAfterMove >= 0 &&
+                (Engine.Map.Content[newRowAfterMove].Substring(newColAfterMove, 1)) == Interval)
             {
                 Draw.ConsoleWrite(Coordinates.CoordX, Coordinates.CoordY, Interval);
                 Coordinates = new Point(newColAfterMove, newRowAfterMove);

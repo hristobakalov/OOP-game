@@ -28,3 +28,9 @@ C:\Users\memo\Documents\GitHub\OOP-game\obj\Debug\OOP Teamwork - Game.pdb
 C:\Users\memo\Documents\GitHub\OOP-game\bin\Debug\OOP Teamwork - Game.exe
 C:\Users\memo\Documents\GitHub\OOP-game\bin\Debug\OOP Teamwork - Game.pdb
 C:\Users\memo\Documents\GitHub\OOP-game\obj\Debug\OOP Teamwork - Game.csprojResolveAssemblyReference.cache
+C:\Users\Mitko\Documents\GitHub\OOP-game\bin\Debug\OOP Teamwork - Game.exe.config
+C:\Users\Mitko\Documents\GitHub\OOP-game\obj\Debug\OOP Teamwork - Game.exe
+C:\Users\Mitko\Documents\GitHub\OOP-game\obj\Debug\OOP Teamwork - Game.pdb
+C:\Users\Mitko\Documents\GitHub\OOP-game\bin\Debug\OOP Teamwork - Game.exe
+C:\Users\Mitko\Documents\GitHub\OOP-game\bin\Debug\OOP Teamwork - Game.pdb
+C:\Users\Mitko\Documents\GitHub\OOP-game\obj\Debug\OOP Teamwork - Game.csprojResolveAssemblyReference.cache
